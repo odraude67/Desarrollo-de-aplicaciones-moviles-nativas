@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5FE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblFrase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frase"
+        android:textSize="24sp"
+        android:textColor="#2962FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/txtFrase"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/txtFrase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textColor="#1976D2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFrase"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Autor"
+        android:textSize="18sp"
+        android:textColor="#2962FF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFrase"
+        app:layout_constraintBottom_toTopOf="@+id/txtAutor"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/txtAutor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre"
+        android:textColor="#1976D2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAutor"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:background="#42A5F5"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnListado"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/btnListado"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Listado"
+        android:background="#64B5F6"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/btnAceptar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutor"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#90CAF9"
+        android:text="Los Datos"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAceptar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

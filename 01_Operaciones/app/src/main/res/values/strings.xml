@@ -1,0 +1,36 @@
+<resources>
+    <!--Datos de la actividad primaria-->
+    <string name="app_name">Tarea_Operaciones</string>
+    <string name="usuario">Usuario</string>
+    <string name="clave">Clave</string>
+    <string name="usuarioHint">Nombre del usuario</string>
+    <string name="botonAceptar">Iniciar Sesion</string>
+    <string name="recuerdame">Recordar datos</string>
+
+    <!--Datos de la actividad secundaria-->
+    <string name="bienvenido">Bienvenido</string>
+
+    <!--Datos de la actividad promedio-->
+    <string name="numeroPromedioHint">Ingresa un número</string>
+    <string name="agregarPromedioNumero">Agregar</string>
+    <string name="calcularPromedioBoton">Calcular Promedio</string>
+    <string name="numerosAgregadosPromedio">Números agregados:</string>
+    <string name="botonPromedio">Promedio</string>
+    <string name="botonRegresarPromedio">Regresar</string>
+
+    <!--Datos de la actividad DesvEstandar-->
+    <string name="numeroDesvHint">Ingresa un número</string>
+    <string name="agregarDesvNumero">Agregar</string>
+    <string name="calcularDesvBoton">Calcular Desviación Estándar</string>
+    <string name="botonDesviacion">Desviacion Estandar</string>
+    <string name="botonRegresarDesvEstandar">Regresar</string>
+
+    <!--Datos para la actividad factorial-->
+    <string name="factorial">Factorial</string>
+    <string name="numeroInt">Pon un numero aqui</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Aqui aparece un resultado</string>
+    <string name="entrar">Entrar</string>
+    <string name="botonFactorial">Factorial</string>
+
+</resources>
